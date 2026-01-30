@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['With Helmet', 'Without Helmet']
+
+roboflow:
+  workspace: lakshmi-yekkanti
+  project: helmet-detection-wczch
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lakshmi-yekkanti/helmet-detection-wczch/dataset/1
